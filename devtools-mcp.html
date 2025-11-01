@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTools MCP - 开发者的魔法神器</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Header -->
+        <header class="main-header">
+            <div class="header-content">
+                <h1 class="site-title">DevFest Workshop</h1>
+                <p class="site-subtitle">Chrome DevTools MCP Server 的史诗之旅</p>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+            <nav class="main-nav" id="main-nav">
+                <a href="index.html" class="nav-link">🏰 首页</a>
+                <a href="gdg-devfest.html" class="nav-link">📜 GDG & DevFest</a>
+                <a href="devtools-mcp.html" class="nav-link active">⚔️ DevTools MCP</a>
+                <a href="about.html" class="nav-link">👤 关于我</a>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="parchment">
+                <div class="content-inner">
+                    <!-- Hero Section -->
+                    <section class="hero-section">
+                        <div class="ornament-top"></div>
+                        <h2 class="section-title">开发者神器的秘密</h2>
+                        <p class="hero-description">
+                            在这个数字王国中，<span class="highlight">Chrome DevTools</span> 如同魔法师的神秘法杖，
+                            而 <span class="highlight">MCP (Model Context Protocol)</span> 则是连接现实与魔法世界的古老契约。
+                            当这两者结合，便诞生了 <span class="highlight">DevTools MCP Server</span> - 一个能够让开发者施展更强大魔法的神器。
+                        </p>
+                        <div class="ornament-bottom"></div>
+                    </section>
+
+                    <!-- Chrome DevTools Section -->
+                    <section class="devtools-section">
+                        <h3 class="subsection-title">🔮 Chrome DevTools 魔法书</h3>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="card-icon">🔍</div>
+                                <h4>元素探索</h4>
+                                <p>如同魔法师的透视术，能够看穿网页的内在结构，洞察每一个元素的奥秘。</p>
+                            </div>
+                            <div class="info-card">
+                                <div class="card-icon">🐛</div>
+                                <h4>咒语调试</h4>
+                                <p>追踪并修复代码中的错误，如同驱散困扰王国的邪恶诅咒。</p>
+                            </div>
+                            <div class="info-card">
+                                <div class="card-icon">⚡</div>
+                                <h4>性能优化</h4>
+                                <p>提升网页加载速度，如同为你的坐骑施加加速魔法。</p>
+                            </div>
+                            <div class="info-card">
+                                <div class="card-icon">🌐</div>
+                                <h4>网络监控</h4>
+                                <p>观察数据流动，如同魔法师感知魔法能量的流动轨迹。</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- MCP Section -->
+                    <section class="mcp-section">
+                        <h3 class="subsection-title">📜 MCP 古老契约</h3>
+                        <div class="contract-content">
+                            <div class="contract-text">
+                                <p>
+                                    <span class="highlight">Model Context Protocol (MCP)</span> 是一种革命性的协议，如同连接不同魔法体系的古老契约。
+                                    它允许不同的工具和系统之间共享上下文信息，创建一个统一的开发环境。
+                                </p>
+                                <p>
+                                    想象一下，你是一位能够同时掌握多种魔法体系的魔法师，MCP就是让你在不同魔法之间自由切换的神秘媒介。
+                                    通过MCP，开发者可以在不同的工具间无缝切换，保持上下文的连续性。
+                                </p>
+                            </div>
+                            <div class="contract-image">
+                                <div class="mystical-illustration">
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mcp-features">
+                            <h4>契约之力</h4>
+                            <ul class="features-list">
+                                <li>🔄 上下文共享 - 在不同工具间保持工作状态</li>
+                                <li>🌌 跨界沟通 - 连接不同的开发环境和工具</li>
+                                <li>🧠 智能辅助 - 提供基于上下文的智能建议</li>
+                                <li>⚙️ 灵活扩展 - 支持自定义工具和功能</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- DevTools MCP Server Section -->
+                    <section class="devtools-mcp-section">
+                        <h3 class="subsection-title">⚔️ DevTools MCP Server 神器</h3>
+                        <div class="artifact-description">
+                            <p>
+                                <span class="highlight">DevTools MCP Server</span> 是这次Workshop的核心，如同传说中的神器，
+                                它将Chrome DevTools的强大功能与MCP的灵活性完美结合。
+                            </p>
+                            <p>
+                                这不仅仅是一个工具，更是一种全新的开发体验。它允许开发者将Chrome DevTools的功能扩展到任何支持MCP的环境中，
+                                就像是将魔法师的法杖变成了可以随时随地使用的便携式魔法装置。
+                            </p>
+                        </div>
+                        
+                        <div class="artifact-powers">
+                            <h4>神器之力</h4>
+                            <div class="powers-grid">
+                                <div class="power-card">
+                                    <div class="power-icon">🎯</div>
+                                    <h5>精准定位</h5>
+                                    <p>在任何环境中精准定位和修复问题</p>
+                                </div>
+                                <div class="power-card">
+                                    <div class="power-icon">🔮</div>
+                                    <h5>远程洞察</h5>
+                                    <p>远程访问和控制浏览器的开发者工具</p>
+                                </div>
+                                <div class="power-card">
+                                    <div class="power-icon">🌊</div>
+                                    <h5>流动数据</h5>
+                                    <p>实时监控和分析数据流动</p>
+                                </div>
+                                <div class="power-card">
+                                    <div class="power-icon">🛡️</div>
+                                    <h5>守护之力</h5>
+                                    <p>保护代码质量，预防潜在问题</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Workshop Experience Section -->
+                    <section class="workshop-experience">
+                        <h3 class="subsection-title">📚 Workshop 学习之旅</h3>
+                        <div class="journey-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker">1</div>
+                                <div class="timeline-content">
+                                    <h4>神器觉醒</h4>
+                                    <p>初次接触DevTools MCP Server，了解其基本概念和原理</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker">2</div>
+                                <div class="timeline-content">
+                                    <h4>咒语学习</h4>
+                                    <p>学习如何配置和使用DevTools MCP Server的基本功能</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker">3</div>
+                                <div class="timeline-content">
+                                    <h4>魔法实践</h4>
+                                    <p>动手实践，将DevTools MCP Server集成到实际项目中</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker">4</div>
+                                <div class="timeline-content">
+                                    <h4>高级技艺</h4>
+                                    <p>探索高级功能和自定义扩展，发挥神器的全部潜力</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Quote Section -->
+                    <section class="quote-section">
+                        <blockquote class="epic-quote">
+                            "DevTools MCP Server如同魔法师的终极法杖，让开发者能够跨越界限，在代码的世界中施展更强大的魔法。"
+                        </blockquote>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <p>© 2024 DevFest Workshop | 由 NANA 制作 | 史诗幻想风格</p>
+        </footer>
+    </div>
+    <script src="mobile-menu.js"></script>
+    <script src="touch-interactions.js"></script>
+</body>
+</html>
